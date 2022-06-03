@@ -21,7 +21,7 @@ const server = app.listen(
   )
 );
 
-app.get("/", (req, res) => res.send("API Running"));
+app.get("/", (req, res) => res.send("API Running V2"));
 
 // Handle unhandled promise rejections
 process.on("unhandledRejection", (err, promise) => {
